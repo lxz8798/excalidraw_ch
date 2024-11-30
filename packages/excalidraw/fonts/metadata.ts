@@ -68,6 +68,15 @@ export const FONT_METADATA: Record<number, FontMetadata> = {
     },
     icon: FontFamilyCodeIcon,
   },
+  [FONT_FAMILY.Hlzsjt]: {
+    metrics: {
+      unitsPerEm: 1000,
+      ascender: 926,
+      descender: -374,
+      lineHeight: 1.25,
+    },
+    icon: FreedrawIcon,
+  },
   [FONT_FAMILY.Virgil]: {
     metrics: {
       unitsPerEm: 1000,
@@ -78,6 +87,7 @@ export const FONT_METADATA: Record<number, FontMetadata> = {
     icon: FreedrawIcon,
     deprecated: true,
   },
+  
   [FONT_FAMILY.Helvetica]: {
     metrics: {
       unitsPerEm: 2048,
@@ -109,6 +119,7 @@ export const FONT_METADATA: Record<number, FontMetadata> = {
     icon: FontFamilyNormalIcon,
     serverSide: true,
   },
+
 };
 
 /** Unicode ranges */

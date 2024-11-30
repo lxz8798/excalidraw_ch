@@ -19,6 +19,7 @@ import { ExcalidrawFont, type Font } from "./ExcalidrawFont";
 import { getContainerElement } from "../element/textElement";
 
 import Virgil from "./assets/Virgil-Regular.woff2";
+import Hlzsjt from "./assets/Hlzsjt.woff2";
 import Excalifont from "./assets/Excalifont-Regular.woff2";
 import Cascadia from "./assets/CascadiaCode-Regular.woff2";
 import ComicShanns from "./assets/ComicShanns-Regular.woff2";
@@ -212,6 +213,10 @@ export class Fonts {
 
     _register("Virgil", FONT_METADATA[FONT_FAMILY.Virgil], {
       uri: Virgil,
+    });
+
+    _register("Hlzsjt", FONT_METADATA[FONT_FAMILY.Hlzsjt], {
+      uri: Hlzsjt,
     });
 
     _register("Excalifont", FONT_METADATA[FONT_FAMILY.Excalifont], {

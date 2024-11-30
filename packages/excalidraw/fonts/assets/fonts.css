@@ -33,3 +33,11 @@
   style: normal;
   display: swap;
 }
+
+@font-face {
+  font-family: "Hlzsjt";
+  src: url(./Hlzsjt.woff2) format("woff2");
+  font-weight: 700;
+  style: normal;
+  display: swap;
+}
